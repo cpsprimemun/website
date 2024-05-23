@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as  Router, Routes, Route, useLocation } from 'react-router-dom';
+import { Toaster } from 'react-hot-toast';
+import Home from './pages/Home';
+import Navbar from './components/Navbar';
+const App = () => {
 
-function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Router>
+      
+            <MainApp/>
+         
+    </Router>
+  )
 }
 
+
+const MainApp = () =>{
+  // const location = useLocation();
+  // const LoginPage = location.pathname.startsWith('/login');
+  // const RendererPage = location.pathname.match('/');
+
+
+  return (
+    <>
+    <Navbar/>
+    <Routes>
+      <Route path='/' element={<Home />} />
+     
+  </Routes>
+  <Toaster position="bottom-right" reverseOrder={false} />
+    </>
+    
+  )
+}
 export default App;
