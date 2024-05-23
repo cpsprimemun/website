@@ -1,11 +1,13 @@
 import React, { useEffect, useState, useRef } from 'react';
+import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 
 const Cursor = () => {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
+  const [showSwipeContent, setShowSwipeContent] = useState(false);
   const cursorOutlineRef = useRef(null);
 
   useEffect(() => {
-    const mouseMove = (e) => {
+    const handleMouseMove = (e) => {
       const { clientX: posX, clientY: posY } = e;
 
       setMousePosition({
@@ -13,7 +15,6 @@ const Cursor = () => {
         y: posY,
       });
 
-      // Apply the animation to the cursor outline
       if (cursorOutlineRef.current) {
         cursorOutlineRef.current.animate(
           {
@@ -26,12 +27,28 @@ const Cursor = () => {
           }
         );
       }
+
+      const container = document.getElementById('previous-mun-photos');
+      
+      if (container) {
+        const rect = container.getBoundingClientRect();
+        if (
+          posX >= rect.left &&
+          posX <= rect.right &&
+          posY >= rect.top &&
+          posY <= rect.bottom
+        ) {
+          setShowSwipeContent(true);
+        } else {
+          setShowSwipeContent(false);
+        }
+      }
     };
 
-    window.addEventListener('mousemove', mouseMove);
+    window.addEventListener('mousemove', handleMouseMove);
 
     return () => {
-      window.removeEventListener('mousemove', mouseMove);
+      window.removeEventListener('mousemove', handleMouseMove);
     };
   }, []);
 
@@ -67,6 +84,20 @@ const Cursor = () => {
           backgroundColor: 'transparent',
         }}
       ></div>
+      {showSwipeContent && (
+        <div
+          className='swipe-content flex gap-1 justify-center items-center'
+          style={{
+            position: 'fixed',
+            top: `${mousePosition.y + 20}px`,
+            left: `${mousePosition.x + 20}px`,
+            zIndex: 100,
+          }}
+        >
+        {<FaArrowLeft />} Swipe {<FaArrowRight />}
+
+        </div>
+      )}
     </>
   );
 };
