@@ -29,14 +29,14 @@ const PreviousMUN = () => {
             const nextPercentageUnconstrained = parseFloat(prevMousePos) + percentage;
             const nextPercentage = Math.max(Math.min(nextPercentageUnconstrained, 0), -100);
         
-            setPercentage(nextPercentage);
+            setPercentage(nextPercentageUnconstrained);
         
             const imageTrackElement = imageTrack.current;
             const images = document.querySelectorAll('.image');
         
             imageTrackElement.animate(
                 {
-                    transform: `translate(${nextPercentage}%, -0%)`
+                    transform: `translate(${nextPercentageUnconstrained}%, -0%)`
                   },
                 { duration: 1200, fill: 'forwards' }
             );

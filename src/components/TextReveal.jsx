@@ -12,9 +12,8 @@ const TextReveal = () => {
 
     gsap.fromTo(
       line,
-      { scale:.2,  opacity: .8 },
+      { opacity: 0 },
       {
-        scale: 1,
         opacity: 1,
         duration: 2,
         ease: 'power2.out',

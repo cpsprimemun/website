@@ -83,6 +83,25 @@ code {
 
   }
 
+  .image-track {
+    display: flex;
+    gap: 4vmin;
+    margin-top: 4rem;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    transition: transform 0.5s ease-in-out; /* Transition for container */
+}
+
+.image {
+    width: 40vmin;
+    height: 56vmin;
+    object-fit: cover;
+    pointer-events: none;
+    scroll-snap-align: start;
+    transition: object-position 0.5s ease-in-out; /* Transition for images */
+}
+
   
   #container {
     display: flex;

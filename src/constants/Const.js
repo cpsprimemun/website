@@ -3,19 +3,31 @@ export const CLIENTS = [
     { logo: 'https://i.postimg.cc/HssxLwP4/allotrix-logo.png', alt: 'Allotrix' }, 
 
     { logo: 'https://i.postimg.cc/9FWpFkh8/Group-197.png', alt: 'AstrapiMoney' }, 
+    { logo: 'https://i.postimg.cc/HnbQsQZC/astrapi.png', alt: 'AstrapiData' }, 
+    { logo: 'https://i.postimg.cc/HssxLwP4/allotrix-logo.png', alt: 'Allotrix' }, 
+
+    { logo: 'https://i.postimg.cc/9FWpFkh8/Group-197.png', alt: 'AstrapiMoney' }, 
+
 
 ];
 
 
 export const MUNPICS = [
-    { img: 'https://images.unsplash.com/photo-1714377890755-550e722190f9?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', alt: 'img' }, 
-    { img: 'https://images.unsplash.com/photo-1714377890755-550e722190f9?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', alt: 'img' }, 
-    { img: 'https://images.unsplash.com/photo-1714377890755-550e722190f9?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', alt: 'img' }, 
-    { img: 'https://images.unsplash.com/photo-1714377890755-550e722190f9?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', alt: 'img' }, 
-    { img: 'https://images.unsplash.com/photo-1714377890755-550e722190f9?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', alt: 'img' }, 
-    { img: 'https://images.unsplash.com/photo-1714377890755-550e722190f9?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', alt: 'img' }, 
+    { img: 'https://i.postimg.cc/TPNXWLxh/1.webp', alt: '1' }, 
+    { img: 'https://i.postimg.cc/m2WWMWv3/10.webp', alt: '10' }, 
+    { img: 'https://i.postimg.cc/FHGM2d7G/11.webp', alt: '11' }, 
+    { img: 'https://i.postimg.cc/hGjkgDmn/12.webp', alt: '12' }, 
+    { img: 'https://i.postimg.cc/wvS80C7p/3.webp', alt: '3' }, 
+    { img: 'https://i.postimg.cc/6QpX3VDD/4.webp', alt: '4' }, 
+    { img: 'https://i.postimg.cc/qRtHcJBw/5.webp', alt: '5' }, 
+    { img: 'https://i.postimg.cc/1XwxTvqN/6.webp', alt: '6' }, 
+    { img: 'https://i.postimg.cc/150hrYSk/7.webp', alt: '7' }, 
+    { img: 'https://i.postimg.cc/1RqZf3j5/8.webp', alt: '8' }, 
+    { img: 'https://i.postimg.cc/52xc7qN6/9.webp', alt: '9' }, 
+];
 
-]
+
+
 
 export const EB1 = [
     {

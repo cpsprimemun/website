@@ -60,6 +60,23 @@ const Home = () => {
     <TextReveal/>
     <Secgen/>
 
+    <section className='flex flex-col justify-center items-center gap-4 mt-12 p-2' >
+    <h1 className='font-bold mb-10 text-3xl md:text-5xl text-center w-full'>
+        Event Stalls
+        </h1>        
+        <div ref={containerRef}
+      className=" flex items-center justify-center w-full max-h-[90px]">
+            {
+              CLIENTS.map((client, index) => (
+                <div key={index} className='relative w-[200px] mb-5 flex items-center justify-center'>
+                  <img src={client.logo} alt={client.alt} draggable="false" className='object-contain max-w-none w-[80px] h-auto image' />
+                </div>
+              ))
+            }
+    
+    </div>
+    </section>
+
     
 
     </main>
