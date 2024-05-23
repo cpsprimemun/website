@@ -41,7 +41,7 @@ const Home = () => {
       className=" flex items-center justify-center w-full max-h-[90px]">
             {
               CLIENTS.map((client, index) => (
-                <div key={index} className='relative w-[200px] m-10 shrink-0 flex items-center'>
+                <div key={index} className='relative w-[200px] mb-5 flex items-center justify-center'>
                   <img src={client.logo} alt={client.alt} draggable="false" className='object-contain max-w-none w-[80px] h-auto image' />
                 </div>
               ))

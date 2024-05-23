@@ -1,10 +1,11 @@
 export const CLIENTS = [
-    { logo: 'https://media.licdn.com/dms/image/D5622AQGFMZyfRvrndg/feedshare-shrink_800/0/1700519791311?e=2147483647&v=beta&t=jAPy1TpNXYhd9z1Zmyr1HI_SbauOSNkvAJvhzOTkPpI', alt: 'Allotrix' }, 
-    { logo: 'https://media.licdn.com/dms/image/D5622AQGFMZyfRvrndg/feedshare-shrink_800/0/1700519791311?e=2147483647&v=beta&t=jAPy1TpNXYhd9z1Zmyr1HI_SbauOSNkvAJvhzOTkPpI', alt: 'Allotrix' }, 
-   
-   
+    { logo: 'https://i.postimg.cc/HnbQsQZC/astrapi.png', alt: 'AstrapiData' }, 
+    { logo: 'https://i.postimg.cc/HssxLwP4/allotrix-logo.png', alt: 'Allotrix' }, 
+
+    { logo: 'https://i.postimg.cc/9FWpFkh8/Group-197.png', alt: 'AstrapiMoney' }, 
 
 ];
+
 
 export const MUNPICS = [
     { img: 'https://images.unsplash.com/photo-1714377890755-550e722190f9?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', alt: 'img' }, 
