@@ -95,7 +95,8 @@ const PreviousMUN = () => {
 
     
     <div ref={imageTrack} className='flex gap-[4vmin] relative left-[50%] mt-4 ' >
-        {
+        {   
+            
             MUNPICS.map((photo, index)=>(
                 <img key = {index} 
                 src={photo.img} 

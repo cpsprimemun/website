@@ -17,8 +17,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: black;
   overflow-x: hidden;
-  margin-left: 100px;
-  margin-right: 100px;
   cursor: none;
 
 }
@@ -29,6 +27,18 @@ code {
     monospace;
 }
 @layer components {
+
+  .animate-slide {
+    animation: 20s slide linear infinite;
+  }
+  
+  @keyframes slide {
+    from {
+      transform: translateX(0);
+    } to {
+      transform: translateX(-100%);
+    }
+  }
 
   .cps-un-gold-btn{
     padding: 3px 40px;

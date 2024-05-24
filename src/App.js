@@ -1,21 +1,29 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { BrowserRouter as  Router, Routes, Route, useLocation } from 'react-router-dom';
 import { Toaster } from 'react-hot-toast';
 import Home from './pages/Home';
+import BackgroundGuides from './pages/BackgroundGuides';
+import Resources from './pages/Resources';
+import Committees from './pages/Committees';
+import Contact from './pages/Contact';
+import Footer from './components/Footer';
+import Cursor from './components/Cursor';
 import Navbar from './components/Navbar';
 const App = () => {
+  const [openNav, setOpenNav] = useState(false);
+
 
   return (
     <Router>
       
-            <MainApp/>
+            <MainApp openNav={openNav} setOpenNav={setOpenNav}/>
          
     </Router>
   )
 }
 
 
-const MainApp = () =>{
+const MainApp = ({openNav, setOpenNav}) =>{
   // const location = useLocation();
   // const LoginPage = location.pathname.startsWith('/login');
   // const RendererPage = location.pathname.match('/');
@@ -23,11 +31,19 @@ const MainApp = () =>{
 
   return (
     <>
-    <Navbar/>
+    <Cursor/>
+    <Navbar openNav={openNav} setOpenNav={setOpenNav}/>
     <Routes>
       <Route path='/' element={<Home />} />
+      <Route path='/backgroundguides' element={<BackgroundGuides />} />
+      <Route path='/committees' element={<Committees />} />
+      <Route path='/resources' element={<Resources />} />
+      <Route path='/contact' element={<Contact />} />
+
      
   </Routes>
+  <Footer/>
+
   <Toaster position="bottom-right" reverseOrder={false} />
     </>
     

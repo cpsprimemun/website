@@ -86,7 +86,7 @@ const Cursor = () => {
       ></div>
       {showSwipeContent && (
         <div
-          className='swipe-content flex gap-1 justify-center items-center'
+          className='swipe-content flex gap-1 text-[#fff] justify-center items-center'
           style={{
             position: 'fixed',
             top: `${mousePosition.y + 20}px`,

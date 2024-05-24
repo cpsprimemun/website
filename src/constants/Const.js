@@ -11,7 +11,24 @@ export const CLIENTS = [
 
 ];
 
+export const COMMITTEES=[
+    {com: "SOCHUM", logo:"https://cpsprimemun.in/assets/IP-a368490b.png"},
+    {com: "UNW", logo:"https://cpsprimemun.in/assets/IP-a368490b.png"},
 
+    {com: "DISEC", logo:"https://cpsprimemun.in/assets/IP-a368490b.png"},
+
+    {com: "CCC", logo:"https://cpsprimemun.in/assets/IP-a368490b.png"},
+
+    {com: "WHO", logo:"https://cpsprimemun.in/assets/IP-a368490b.png"},
+
+    {com: "UNFCCC", logo:"https://cpsprimemun.in/assets/IP-a368490b.png"},
+
+    {com: "UNCSW", logo:"https://cpsprimemun.in/assets/IP-a368490b.png"},
+
+    {com: "UNHRC", logo:"https://cpsprimemun.in/assets/IP-a368490b.png"},
+
+
+]
 export const MUNPICS = [
     { img: 'https://i.postimg.cc/150hrYSk/7.webp', alt: '7' }, 
     { img: 'https://i.postimg.cc/1RqZf3j5/8.webp', alt: '8' }, 
@@ -37,32 +54,32 @@ export const MUNPICS = [
 export const EB1 = [
     {
       "name": "Atheeb Hussain",
-      "designation": "CEO",
+      "designation": "UNGA",
       "img": "https://i.postimg.cc/bwPH8hJ7/Untitled-design-7.webp"
     },
     {
       "name": "Tharun Pranav S",
-      "designation": "CTO",
+      "designation": "UNGA",
       "img": "https://i.postimg.cc/W1sbTWPW/TP.webp"
     },
     {
       "name": "Aryan Biswas",
-      "designation": "CFO",
+      "designation": "UNGA",
       "img": "https://i.postimg.cc/j22jxk7Y/a-3.webp"
     },
     {
       "name": "Inban Azhagiri",
-      "designation": "Marketing and Sales",
+      "designation": "UNGA",
       "img": "https://i.postimg.cc/tJ46BX68/inban.webp"
     },
     {
       "name": "Lavlin Jaison",
-      "designation": "Co - Developer",
+      "designation": "UNGA",
       "img": "https://i.postimg.cc/Hs8365b1/Untitled-design-10.webp"
     },
     {
       "name": "Soniah Naren",
-      "designation": "Data Analyst",
+      "designation": "UNGA",
       "img": "https://i.postimg.cc/HLmVSYD3/a-6.webp"
     },
    
@@ -70,28 +87,33 @@ export const EB1 = [
   ]
   export const EB2 = [
     {
-        "name": "Aryan Abdullah",
-        "designation": "Design & Graphics",
-        "img": "https://i.postimg.cc/7ZPGPDhm/a-10.webp"
+        "name": "Atheeb Hussain",
+        "designation": "UNGA",
+        "img": "https://i.postimg.cc/bwPH8hJ7/Untitled-design-7.webp"
       },
       {
-        "name": "Aashir",
-        "designation": "Chief Developer",
-        "img": "https://i.postimg.cc/wMf8twDX/a-1.webp"
+        "name": "Tharun Pranav S",
+        "designation": "UNGA",
+        "img": "https://i.postimg.cc/W1sbTWPW/TP.webp"
       },
       {
-        "name": "Rakesh K",
-        "designation": "Outreach Manager",
-        "img": "https://i.postimg.cc/66vsR3C2/a-9.webp"
+        "name": "Aryan Biswas",
+        "designation": "UNGA",
+        "img": "https://i.postimg.cc/j22jxk7Y/a-3.webp"
       },
       {
-        "name": "Utsav Eshan",
-        "designation": "Co - Developer",
-        "img": "https://i.postimg.cc/63LTWHsx/Untitled-design-11.png"
+        "name": "Inban Azhagiri",
+        "designation": "UNGA",
+        "img": "https://i.postimg.cc/tJ46BX68/inban.webp"
       },
       {
-        "name": "Aditi A Kumar",
-        "designation": "Content Writer",
-        "img": "https://i.postimg.cc/XNPrVtK7/a.webp"
+        "name": "Lavlin Jaison",
+        "designation": "UNGA",
+        "img": "https://i.postimg.cc/Hs8365b1/Untitled-design-10.webp"
+      },
+      {
+        "name": "Soniah Naren",
+        "designation": "UNGA",
+        "img": "https://i.postimg.cc/HLmVSYD3/a-6.webp"
       },
   ]

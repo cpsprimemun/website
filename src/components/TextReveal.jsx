@@ -21,7 +21,7 @@ const TextReveal = () => {
           trigger: textRef.current,
           start: 'top 80%',
           end: 'bottom 30%',
-          scrub: true,
+          scrub: false,
           markers: false,
         },
       }

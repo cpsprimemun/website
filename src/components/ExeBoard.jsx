@@ -22,7 +22,7 @@ const ExeBoard = () => {
           trigger: eb1Ref.current,
           start: 'top 80%',
           end: 'bottom 20%',
-          scrub: true,
+          scrub: false,
           markers: false,
         },
       }
@@ -40,7 +40,7 @@ const ExeBoard = () => {
           trigger: eb2Ref.current,
           start: 'top 80%',
           end: 'bottom 20%',
-          scrub: true,
+          scrub: false,
           markers: false,
         },
       }
