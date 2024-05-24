@@ -9,6 +9,7 @@ import Contact from './pages/Contact';
 import Footer from './components/Footer';
 import Cursor from './components/Cursor';
 import Navbar from './components/Navbar';
+import Register from './pages/Register';
 const App = () => {
   const [openNav, setOpenNav] = useState(false);
 
@@ -38,6 +39,8 @@ const MainApp = ({openNav, setOpenNav}) =>{
       <Route path='/backgroundguides' element={<BackgroundGuides />} />
       <Route path='/committees' element={<Committees />} />
       <Route path='/resources' element={<Resources />} />
+      <Route path='/register' element={<Register />} />
+      
       <Route path='/contact' element={<Contact />} />
 
      

@@ -31,7 +31,7 @@ const Home = () => {
         <div className='flex gap-8 my-4'>
         <button className='cps-un-silver-btn text-lg' onClick={()=>{prevMUNContainer?.scrollIntoView({ behavior: 'smooth' });}}>Explore</button>
 
-            <button className='cps-un-gold-btn text-lg'>Register</button>
+            <a href="/register"><button className='cps-un-gold-btn text-lg'>Register</button></a>
 
         </div>
         <Timer endDate={endDate}/>
