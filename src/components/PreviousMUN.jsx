@@ -30,9 +30,23 @@ const PreviousMUN = () => {
             const nextPercentage = Math.max(Math.min(nextPercentageUnconstrained, 0), -100);
         
             setPercentage(nextPercentageUnconstrained);
-        
+
             const imageTrackElement = imageTrack.current;
             const images = document.querySelectorAll('.image');
+
+            console.log(nextPercentage)
+
+            if (nextPercentage == -100 || nextPercentage === 0) {
+                images.forEach((image) => {
+                    image.animate(
+                        [{ objectPosition: `${100}% 0%` }],
+                        { duration: 1200, fill: 'forwards' }
+                    );
+                });
+            }
+        
+        
+ 
         
             imageTrackElement.animate(
                 {
