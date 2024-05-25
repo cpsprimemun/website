@@ -2,10 +2,10 @@ import React from 'react'
 
 const Secgen = () => {
   return (
-    <section className='flex flex-col justify-center items-center gap-4 mt-12 p-2' >
+    <section className='flex flex-col justify-center items-center gap-4 mt-48 md:mt-10 p-2' >
 
-    <div className='border-2 border-cps-grey p-4 rounded-xl bg-white flex gap-4'>
-            <div className='w-[70%] flex flex-col justify-evenly'>
+    <div className='border-2 border-cps-grey p-4 rounded-xl bg-white flex flex-col-reverse md:flex-row gap-4'>
+            <div className='md:w-[70%] w-full flex flex-col justify-evenly'>
                 <h1  className='text-2xl'>
                     John DOe
                 </h1>
@@ -22,7 +22,7 @@ const Secgen = () => {
                 <h1 className='text-cps-black font-bold text-4xl'>CPS Prime MUN 3.0</h1>
 
             </div>
-            <div className='w-[30%] flex items-center justify-center shadow-lg shadow-[#1111F1]'>
+            <div className='md:w-[30%] w-full flex items-center justify-center shadow-lg shadow-[#1111F1]'>
                 <img src="https://i.postimg.cc/bwPH8hJ7/Untitled-design-7.webp" alt="Secretary General" className='rounded-md' />
             </div>
 

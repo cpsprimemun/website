@@ -55,8 +55,36 @@ const ExeBoard = () => {
         </h1>
       </section>
       <section id="container" className='justify-center'>
-        <div ref={eb1Ref} className="image-container mb-24 flex">
+        <div ref={eb1Ref} className="image-container mb-24 md:flex hidden">
           {EB1.map((member, index) => (
+            <div
+              key={index}
+              className="img font-allotrix-font-secondary"
+              style={{ backgroundImage: `url(${member.img})` }}
+            >
+              <div className="img-label">
+                <h2>{member.name}</h2>
+                <p>{member.designation}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+        <div ref={eb1Ref} className="image-container flex md:hidden">
+          {EB1.slice(0,2).map((member, index) => (
+            <div
+              key={index}
+              className="img font-allotrix-font-secondary"
+              style={{ backgroundImage: `url(${member.img})` }}
+            >
+              <div className="img-label">
+                <h2>{member.name}</h2>
+                <p>{member.designation}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+        <div ref={eb1Ref} className="image-container flex md:hidden">
+          {EB1.slice(3,5).map((member, index) => (
             <div
               key={index}
               className="img font-allotrix-font-secondary"
@@ -71,8 +99,36 @@ const ExeBoard = () => {
         </div>
       </section>
       <section id="container" className='mb-24 justify-center'>
-        <div ref={eb2Ref} className="image-container  flex">
+        <div ref={eb2Ref} className="image-container md:flex hidden">
           {EB2.map((member, index) => (
+            <div
+              key={index}
+              className="img font-allotrix-font-secondary"
+              style={{ backgroundImage: `url(${member.img})` }}
+            >
+              <div className="img-label">
+                <h2>{member.name}</h2>
+                <p>{member.designation}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+        <div ref={eb2Ref} className="image-container flex md:hidden">
+          {EB2.slice(0,2).map((member, index) => (
+            <div
+              key={index}
+              className="img font-allotrix-font-secondary"
+              style={{ backgroundImage: `url(${member.img})` }}
+            >
+              <div className="img-label">
+                <h2>{member.name}</h2>
+                <p>{member.designation}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+        <div ref={eb2Ref} className="image-container flex md:hidden">
+          {EB2.slice(3,5).map((member, index) => (
             <div
               key={index}
               className="img font-allotrix-font-secondary"

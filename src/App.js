@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 import Cursor from './components/Cursor';
 import Navbar from './components/Navbar';
 import Register from './pages/Register';
+import MobileNavbar from './components/MobileNavbar';
 const App = () => {
   const [openNav, setOpenNav] = useState(false);
 
@@ -33,7 +34,8 @@ const MainApp = ({openNav, setOpenNav}) =>{
   return (
     <>
     <Cursor/>
-    <Navbar openNav={openNav} setOpenNav={setOpenNav}/>
+    <Navbar openNav={openNav} setOpenNav={setOpenNav} />
+    <MobileNavbar openNav={openNav} setOpenNav={setOpenNav} />
     <Routes>
       <Route path='/' element={<Home />} />
       <Route path='/backgroundguides' element={<BackgroundGuides />} />

@@ -94,7 +94,7 @@ const PreviousMUN = () => {
 
 
     
-    <div ref={imageTrack} className='flex gap-[4vmin] relative left-[50%] mt-4 ' >
+    <div ref={imageTrack} className='flex gap-[4vmin] relative md:left-[50%] mt-4 overflow-scroll' >
         {   
             
             MUNPICS.map((photo, index)=>(

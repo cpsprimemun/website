@@ -35,7 +35,7 @@ const TextReveal = () => {
         className="text-container"
         style={{ fontSize: '24px', lineHeight: '32px', overflow: 'hidden' }}
       >
-        <div className="text-5xl font-bold text-[#fff] h-max line">
+        <div className="text-5xl font-bold text-[#fff] line">
          We do it Best, <span className='line text-cps-gold'> Welcome to CPS Prime MUN</span>
         </div>
       </div>
