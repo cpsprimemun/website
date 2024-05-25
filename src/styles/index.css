@@ -217,4 +217,8 @@ code {
     min-height: 65px;
     min-width: 65px;;
   }
+
+  .munpics {
+    overflow: scroll;
+  }
 }

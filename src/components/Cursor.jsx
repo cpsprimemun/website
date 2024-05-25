@@ -55,7 +55,7 @@ const Cursor = () => {
   return (
     <>
       <div
-        className='cursor-dot'
+        className='cursor-dot hidden md:block'
         style={{
           top: `${mousePosition.y}px`,
           left: `${mousePosition.x}px`,
@@ -70,7 +70,7 @@ const Cursor = () => {
         }}
       ></div>
       <div
-        className='cursor-outline'
+        className='cursor-outline hidden md:block'
         ref={cursorOutlineRef}
         style={{
           position: 'fixed',
@@ -86,7 +86,7 @@ const Cursor = () => {
       ></div>
       {showSwipeContent && (
         <div
-          className='swipe-content flex gap-1 text-[#fff] justify-center items-center'
+          className='swipe-content gap-1 text-[#fff] justify-center items-center hidden md:flex'
           style={{
             position: 'fixed',
             top: `${mousePosition.y + 20}px`,
