@@ -24,7 +24,7 @@ const Home = () => {
 
   return (
     <>
-    <main className='bg-[#000] text-[#fff] flex flex-col justify-center items-center py-36 gap-4'>
+    <main className='bg-[#000] text-[#fff] flex flex-col justify-center items-center py-36 gap-4 overflow-hidden'>
         <Tag/>
         <h1 className='font-bold text-[#fff] md:text-8xl text-7xl px-4 text-center'><span className='text-cps-gold'>Conquer</span> From Within</h1>
         <p className='text-lg text-center'>Welcome to CPS Prime MUN, Chennai Public Schools’s Annual MUN Conference</p>
