@@ -4,12 +4,12 @@ const Register = () => {
   return (
     <main className='bg-[#000] text-[#fff] flex flex-col justify-center items-center my-36 gap-8	ml-[100px] mr-[100px]'>
         <h1 className='text-6xl font-bold'>Choose Delegation Type</h1>
-        <a href='/'>
+        <a href='https://forms.gle/oYQo9iARwqt321HT6'>
         <button className='cps-un-gold-btn text-5xl p-8' >
                 Individual Registration
             </button>
         </a>
-        <a href='/'>
+        <a href='https://forms.gle/godT9VLjsiRMWXqY7'>
         <button className='cps-un-gold-btn text-5xl p-8' >
                 Delegation Registration
             </button>
