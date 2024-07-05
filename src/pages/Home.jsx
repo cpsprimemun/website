@@ -11,8 +11,8 @@ import Secgen from '../components/Secgen'
 const Home = () => {
     const today = dayjs()
 
-    const endDate = today.add(59 , 'day').endOf('day')
-
+    const endDate = today.add(59, 'days').endOf('day').set('date', 19).set('month', 6); // July is month 6 (0-indexed)
+    
     const containerRef = useRef(null);
     
     const prevMUNContainer = document.getElementById("previous-mun-photos")

@@ -121,7 +121,7 @@ const Footer = () => {
             <aside className='flex justify-between items-center border-t-2 border-solid border-t-allotrix-std pt-6 md:mx-32'>
                 <div className='w-[80px]'>
                     <Link to={'/'}>
-                        <img src={"Logo"} alt="allotrix" className='max-h-full max-w-full' />
+                    <strong>   <h1>CPS Prime 3.0</h1></strong>
                     </Link>
                 </div>
                 <div className='bg-[#161617] text-[13px] font-light py-1 px-4 rounded-2xl font-allotrix-font-secondary text-[white] transition-all duration-300 ease-out border-[1px] border-solid hover:border-allotrix-std'>

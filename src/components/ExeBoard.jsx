@@ -70,7 +70,7 @@ const ExeBoard = () => {
           ))}
         </div>
         <div className='flex flex-wrap gap-3 items-center justify-center md:hidden'>
-          {EB2.map((member, index) => (
+          {EB1.map((member, index) => (
             <div key={index} className='relative w-[170px] h-[170px] rounded-lg'>
                 <img className='w-full h-full rounded-lg' src={member.img} alt="AV" />
               <div className='absolute bottom-2 text-md bg-[white] text-[black] px-2 rounded-r-md font-allotrix-font-secondary'>
@@ -96,6 +96,17 @@ const ExeBoard = () => {
             </div>
           ))}
         </div>
+        <div className='flex flex-wrap gap-3 items-center justify-center md:hidden'>
+          {EB2.map((member, index) => (
+            <div key={index} className='relative w-[170px] h-[170px] rounded-lg'>
+                <img className='w-full h-full rounded-lg' src={member.img} alt="AV" />
+              <div className='absolute bottom-2 text-md bg-[white] text-[black] px-2 rounded-r-md font-allotrix-font-secondary'>
+                <h2>{member.name}</h2>
+                <p>{member.designation}</p>
+              </div>
+            </div>
+          ))}
+        </div>
         
       </section>
       <section id="container" className='mb-24 justify-center'>
@@ -113,7 +124,17 @@ const ExeBoard = () => {
             </div>
           ))}
         </div>
-        
+        <div className='flex flex-wrap gap-3 items-center justify-center md:hidden'>
+          {EB3.map((member, index) => (
+            <div key={index} className='relative w-[170px] h-[170px] rounded-lg'>
+                <img className='w-full h-full rounded-lg' src={member.img} alt="AV" />
+              <div className='absolute bottom-2 text-md bg-[white] text-[black] px-2 rounded-r-md font-allotrix-font-secondary'>
+                <h2>{member.name}</h2>
+                <p>{member.designation}</p>
+              </div>
+            </div>
+          ))}
+        </div>
       </section>
       <section id="container" className='mb-24 justify-center'>
         <div ref={eb2Ref} className="image-container md:flex hidden">
@@ -130,7 +151,17 @@ const ExeBoard = () => {
             </div>
           ))}
         </div>
-        
+        <div className='flex flex-wrap gap-3 items-center justify-center md:hidden'>
+          {EB4.map((member, index) => (
+            <div key={index} className='relative w-[170px] h-[170px] rounded-lg'>
+                <img className='w-full h-full rounded-lg' src={member.img} alt="AV" />
+              <div className='absolute bottom-2 text-md bg-[white] text-[black] px-2 rounded-r-md font-allotrix-font-secondary'>
+                <h2>{member.name}</h2>
+                <p>{member.designation}</p>
+              </div>
+            </div>
+          ))}
+        </div>
       </section>
       <section id="container" className='mb-24 justify-center'>
         <div ref={eb2Ref} className="image-container md:flex hidden">
@@ -147,7 +178,17 @@ const ExeBoard = () => {
             </div>
           ))}
         </div>
-        
+        <div className='flex flex-wrap gap-3 items-center justify-center md:hidden'>
+          {EB5.map((member, index) => (
+            <div key={index} className='relative w-[170px] h-[170px] rounded-lg'>
+                <img className='w-full h-full rounded-lg' src={member.img} alt="AV" />
+              <div className='absolute bottom-2 text-md bg-[white] text-[black] px-2 rounded-r-md font-allotrix-font-secondary'>
+                <h2>{member.name}</h2>
+                <p>{member.designation}</p>
+              </div>
+            </div>
+          ))}
+        </div>
       </section>
     </>
   );
