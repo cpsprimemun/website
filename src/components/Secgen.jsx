@@ -26,7 +26,7 @@ With great honour and pride, I welcome all of you to the third edition of Chenna
 
             </div>
             <div className='md:w-[30%] w-full flex items-center justify-center shadow-lg shadow-[#1111F1]'>
-                <img src="https://i.postimg.cc/bwPH8hJ7/Untitled-design-7.webp" alt="Secretary General" className='rounded-md' />
+                <img src="https://i.postimg.cc/ZRy4MKhB/Whats-App-Image-2024-06-21-at-17-30-56.jpg" alt="Secretary General" className='rounded-md' />
             </div>
 
 

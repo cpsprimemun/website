@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import Tag from '../components/Tag'
 import Timer from '../components/Timer'
 import dayjs, { duration } from 'dayjs'
-import { CLIENTS,} from '../constants/Const'
+import { CLIENTS, STALLS,} from '../constants/Const'
 import TextReveal from '../components/TextReveal'
 import ExeBoard from '../components/ExeBoard'
 import PreviousMUN from '../components/PreviousMUN'
@@ -40,14 +40,14 @@ const Home = () => {
 
         <p className='text-lg mt-8 text-cps-grey font-bold'>Supported By</p>
         <section className='w-full h-[100px] flex items-center mb-24'>
-        <div className='w-full md:w-full overflow-hidden flex after:content[""] after:dark:from-brand-dark after:from-background after:bg-gradient-to-l after:right-0 after:top-0 after:bottom-0 after:w-20 after:z-10 after:absolute before:content[""] before:dark:from-brand-dark before:from-background before:bg-gradient-to-r before:left-0 before:top-0 before:bottom-0 before:w-20 before:z-10 before:absolute'>
+        <div className='w-full md:w-full  justify-center overflow-hidden flex after:content[""] after:dark:from-brand-dark after:from-background after:bg-gradient-to-l after:right-0 after:top-0 after:bottom-0 after:w-20 after:z-10 after:absolute before:content[""] before:dark:from-brand-dark before:from-background before:bg-gradient-to-r before:left-0 before:top-0 before:bottom-0 before:w-20 before:z-10 before:absolute'>
                     {
                         
-                        [...Array(2)].map((arr, i) => (
-                            <div key={i} className='flex flex-nowrap animate-slide'>
+                        [...Array(1)].map((arr, i) => (
+                            <div key={i} className='flex flex-nowrap justify-center '> {/*animate-slide */}
                                 {
                                     CLIENTS.map((client) => (
-                                        <div key={client.alt} className='relative w-[200px] m-10 shrink-0 flex items-center'>
+                                        <div key={client.alt} className='relative w-[200px] justify-center m-10 shrink-0 flex items-center'>
                                             <img src={client.logo} alt={client.alt} className='object-contain max-w-none w-[100px]' />
                                         </div>
                                     ))
@@ -73,14 +73,14 @@ const Home = () => {
         Event Stalls
         </h1>        
         <section className='w-full h-[100px] flex items-center mb-24'>
-        <div className='w-full md:w-full overflow-hidden flex after:content[""] after:dark:from-brand-dark after:from-background after:bg-gradient-to-l after:right-0 after:top-0 after:bottom-0 after:w-20 after:z-10 after:absolute before:content[""] before:dark:from-brand-dark before:from-background before:bg-gradient-to-r before:left-0 before:top-0 before:bottom-0 before:w-20 before:z-10 before:absolute'>
+        <div className='w-full md:w-full justify-center overflow-hidden flex after:content[""] after:dark:from-brand-dark after:from-background after:bg-gradient-to-l after:right-0 after:top-0 after:bottom-0 after:w-20 after:z-10 after:absolute before:content[""] before:dark:from-brand-dark before:from-background before:bg-gradient-to-r before:left-0 before:top-0 before:bottom-0 before:w-20 before:z-10 before:absolute'>
                     {
                         
-                        [...Array(2)].map((arr, i) => (
-                            <div key={i} className='flex flex-nowrap animate-slide'>
+                        [...Array(1)].map((arr, i) => (
+                            <div key={i} className='flex flex-nowrap justify-center'>
                                 {
-                                    CLIENTS.map((client) => (
-                                        <div key={client.alt} className='relative w-[200px] m-10 shrink-0 flex items-center'>
+                                    STALLS.map((client) => (
+                                        <div key={client.alt} className='relative w-[200px] m-10 shrink-0 justify-center flex items-center'>
                                             <img src={client.logo} alt={client.alt} className='object-contain max-w-none w-[100px]' />
                                         </div>
                                     ))

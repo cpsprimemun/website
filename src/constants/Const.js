@@ -1,34 +1,25 @@
 export const CLIENTS = [
-    { logo: 'https://i.postimg.cc/HnbQsQZC/astrapi.png', alt: 'AstrapiData' }, 
     { logo: 'https://i.postimg.cc/HssxLwP4/allotrix-logo.png', alt: 'Allotrix' }, 
+]
 
-    { logo: 'https://i.postimg.cc/9FWpFkh8/Group-197.png', alt: 'AstrapiMoney' }, 
-    { logo: 'https://i.postimg.cc/HnbQsQZC/astrapi.png', alt: 'AstrapiData' }, 
-    { logo: 'https://i.postimg.cc/HssxLwP4/allotrix-logo.png', alt: 'Allotrix' }, 
+export const STALLS = [
+  { logo: 'https://i.postimg.cc/HssxLwP4/allotrix-logo.png', alt: 'Allotrix' }, 
+]
 
-    { logo: 'https://i.postimg.cc/9FWpFkh8/Group-197.png', alt: 'AstrapiMoney' }, 
-
-
+export const COMMITTEES = [
+  { com: "UNGA", logo: "" },
+  { com: "UNHRC", logo: "https://i.postimg.cc/VvpsNrBF/unsc.png" },
+  { com: "UNSC", logo: "https://i.postimg.cc/VvpsNrBF/unsc.png  " },
+  { com: "UNCSW", logo: "https://i.postimg.cc/sfNgmqdZ/us-senate.png" },
+  { com: "AIPPM", logo: "https://i.postimg.cc/L8f5nTWg/aippm.png  " },
+  { com: "ECOSOC", logo: "https://i.postimg.cc/VL25fTKc/ecosoc.png  " },
+  { com: "AD HOC", logo: "https://i.postimg.cc/y6Qk5W9x/adhoc.png  " },
+  { com: "IPP", logo: "https://i.postimg.cc/xd2CHmrx/ipp.png" },
+  { com: "IPJ", logo: "https://i.postimg.cc/5NX6M1q3/ipj.png  " },
+  { com: "US SENATE", logo: "https://i.postimg.cc/sfNgmqdZ/us-senate.png" },
+  { com: "SOCHUM", logo: "https://i.postimg.cc/tgNgzgpX/sochum.png" }
 ];
 
-export const COMMITTEES=[
-    {com: "SOCHUM", logo:"https://cpsprimemun.in/assets/IP-a368490b.png"},
-    {com: "UNW", logo:"https://cpsprimemun.in/assets/IP-a368490b.png"},
-
-    {com: "DISEC", logo:"https://cpsprimemun.in/assets/IP-a368490b.png"},
-
-    {com: "CCC", logo:"https://cpsprimemun.in/assets/IP-a368490b.png"},
-
-    {com: "WHO", logo:"https://cpsprimemun.in/assets/IP-a368490b.png"},
-
-    {com: "UNFCCC", logo:"https://cpsprimemun.in/assets/IP-a368490b.png"},
-
-    {com: "UNCSW", logo:"https://cpsprimemun.in/assets/IP-a368490b.png"},
-
-    {com: "UNHRC", logo:"https://cpsprimemun.in/assets/IP-a368490b.png"},
-
-
-]
 export const MUNPICS = [
     { img: 'https://i.postimg.cc/150hrYSk/7.webp', alt: '7' }, 
     { img: 'https://i.postimg.cc/1RqZf3j5/8.webp', alt: '8' }, 
