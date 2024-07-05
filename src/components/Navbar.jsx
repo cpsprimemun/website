@@ -31,7 +31,7 @@ const Navbar = ({openNav, setOpenNav}) => {
             </div>
             <div className='w-[150px]'>
                 <Link to={'/'} onClick={() => setOpenNav(!openNav)}>
-                    <h1>CPS Prime 3.0</h1>
+                 <strong>   <h1>CPS Prime 3.0</h1></strong>
                 </Link>
             </div>
             <ul className='flex flex-col items-center gap-4 font-allotrix-font px-6 py-4 rounded-xl md:flex-row md:gap-10 md:py-3 md:px-8 md:h-[55px]'>
