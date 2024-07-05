@@ -7,10 +7,10 @@ export const STALLS = [
 ]
 
 export const COMMITTEES = [
-  { com: "UNGA", logo: "" },
-  { com: "UNHRC", logo: "https://i.postimg.cc/VvpsNrBF/unsc.png" },
+  { com: "UNGA", logo: "https://i.postimg.cc/brsN8HbJ/unga.png  " },
+  { com: "UNHRC", logo: "https://i.postimg.cc/vBPHpS4k/unhrc.png  " },
   { com: "UNSC", logo: "https://i.postimg.cc/VvpsNrBF/unsc.png  " },
-  { com: "UNCSW", logo: "https://i.postimg.cc/sfNgmqdZ/us-senate.png" },
+  { com: "UNCSW", logo: "https://i.postimg.cc/LX48QM8j/uncsw.png  " },
   { com: "AIPPM", logo: "https://i.postimg.cc/L8f5nTWg/aippm.png  " },
   { com: "ECOSOC", logo: "https://i.postimg.cc/VL25fTKc/ecosoc.png  " },
   { com: "AD HOC", logo: "https://i.postimg.cc/y6Qk5W9x/adhoc.png  " },

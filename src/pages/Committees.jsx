@@ -9,8 +9,8 @@ const Committees = () => {
              <main className="bg-[#000] text-[#fff] flex items-center justify-center flex-wrap gap-4  md:mx-[100px] rounded-xl">
 
         {
-            COMMITTEES.map((committee) => (
-               <CommitteeCard comName={committee.com} logo={committee.logo}/>
+            COMMITTEES.map((committee, index) => (
+               <CommitteeCard key={index} comName={committee.com} logo={committee.logo}/>
             ))
         }
         </main>
