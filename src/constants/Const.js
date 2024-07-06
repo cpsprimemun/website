@@ -175,7 +175,7 @@ export const EB1 = [
   ]
   export const EB5 = [
     {
-        "name": "Karan Chodriya",
+        "name": "Karan Chordia",
         "designation": "ECOSOC (CO Head Chair)",
         "img": "https://i.postimg.cc/VkdJbqV9/IMG-26.png"
       },
