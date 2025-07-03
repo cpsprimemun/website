@@ -31,7 +31,7 @@ const Navbar = ({openNav, setOpenNav}) => {
             </div>
             <div className='w-[150px]'>
                 <Link to={'/'} onClick={() => setOpenNav(!openNav)}>
-                 <strong>   <h1>CPS Prime 3.0</h1></strong>
+                 <strong>   <h1>CPS Prime 4.0</h1></strong>
                 </Link>
             </div>
             <ul className='flex flex-col items-center gap-4 font-allotrix-font px-6 py-4 rounded-xl md:flex-row md:gap-10 md:py-3 md:px-8 md:h-[55px]'>
@@ -44,9 +44,9 @@ const Navbar = ({openNav, setOpenNav}) => {
                 <li className='hover:pb-2 transition-all duration-300 ease-out hover:text-allotrix-std'>
                     <Link to="https://drive.google.com/drive/folders/1qiz8caGgf-br03Ym4AorA01VFLrb88iA?usp=sharing" onClick={() => setOpenNav(!openNav)}>BG Guides</Link> 
                 </li> 
-                <li className='hover:pb-2 transition-all duration-300 ease-out hover:text-allotrix-std'>
+                {/*<li className='hover:pb-2 transition-all duration-300 ease-out hover:text-allotrix-std'>
                     <Link to="https://drive.google.com/drive/folders/1qrXcP74dEISfkmhTXWZnRPldA2VdOAap?usp=sharing" onClick={() => setOpenNav(!openNav)}>Resources</Link> 
-                </li> 
+                </li> */}
                 <li className='hover:pb-2 transition-all duration-300 ease-out hover:text-allotrix-std'>
                     <Link to="/contact" onClick={() => setOpenNav(!openNav)}>Contact</Link>
                 </li>

@@ -44,104 +44,111 @@ export const MUNPICS = [
 
 export const EB1 = [
     {
-      "name": "Vedhaanth Mohan",
-      "designation": "UNHRC (Head Chair)",
-      "img": "https://i.postimg.cc/76CCSxRs/IMG-1.jpg"
+      "name": "Anirudh S",
+      "designation": "UNHRC (Co-Chair)",
+      "img": "https://i.ibb.co/Cpy7Lmnc/Anirudh-S-HRC-Co-chair.jpg"
     },
     {
-      "name": "Soniah Naren",
-      "designation": "UNCSW (Vice Chair",
-      "img": "https://i.postimg.cc/9X7RMQZz/IMG-2.jpg"
+      "name": "Ashwamedh",
+      "designation": "LCA (Crisis) (Vice Chair)",
+      "img": "https://i.ibb.co/jZxgc04V/Ashwamedh-geneva-Vice-chair.jpg"
     },
     {
-      "name": "Atheeb Hussain",
-      "designation": "UNGA (Head Chair)",
-      "img": "https://i.postimg.cc/dtC8z94H/IMG-11.png"
+      "name": "Mohammad Azhar",
+      "designation": "IPJ (Head of Photojournalism)",
+      "img": "https://i.ibb.co/4n86dDCF/Azhar-IPJ-Head-of-photojournalism.jpg"
     },
     {
-      "name": "Sarvesh Ram",
-      "designation": "ECOSOC (CO-Head Chair)",
-      "img": "https://i.postimg.cc/t4T9sBwD/IMG-3.jpg"
+      "name": "Hariharasuthan",
+      "designation": "AIPPM (Co-chair)",
+      "img": "https://i.ibb.co/23L7K7W6/Hariharasuthan-AIPPM-Co-chair.jpg" 
     },
     {
-      "name": "Tharun Pranav",
-      "designation": "UNSCW (Head Chair)",
-      "img": "https://i.postimg.cc/pXcg6RcY/IMG-4.png"
+      "name": "Harini Sree",
+      "designation": "AIPPM (Co-chair)",
+      "img": "https://i.ibb.co/sJJ2Nf83/Harini-Sree-AIPPM-Co-chair.jpg" 
     },
     {
-      "name": "Ajai Karthikesan",
-      "designation": "UNSCW (Director)",
-      "img": "https://i.postimg.cc/jSGBRvbD/IMG-5.png"
+      "name": "Hariroopan-Mathan",
+      "designation": "ILC (Head-Chair)",
+      "img": "https://i.ibb.co/tMsrX5TX/Hariroopan-Mathan-ILC-Head-Chair.jpg" 
     },
    
    
   ]
   export const EB2 = [
     {
-        "name": "Idhant",
-        "designation": "AD HOC (CO Vice Chair)",
-        "img": "https://i.postimg.cc/nrcP3PvP/IMG-6.jpg"
+        "name": "Jwala Ayer",
+        "designation": "Co photographer in chief",
+        "img": "https://i.ibb.co/Hf3Ns3BV/Jwala-IPJ-Co-photographer-in-chief.jpg" 
+      },
+      {
+        "name": "Lokesh Narayana",
+        "designation": "Geneva (Head-chair)",
+        "img": "https://i.ibb.co/27WQNqCn/Lokesh-narayana-Geneva-Head-chair.jpg" 
+      },
+      {
+        "name": "Narendran MK",
+        "designation": "Editor in chief",
+        "img": "https://i.ibb.co/W47bfL8b/Naren-IPP-Editor-in-Chief.jpg" 
+      },
+      {
+        "name": "V Roshan Aravin",
+        "designation": "Geneva-moderator",
+        "img": "https://i.ibb.co/cKjX3LGv/Roshan-geneva-moderator.jpg" 
+      },
+      {
+        "name": "Ruchit Shivani",
+        "designation": "IMF (Chair)",
+        "img": "https://i.ibb.co/rRKVNBLP/Ruchith-IMF-Head-Chair.jpg" 
       },
       {
         "name": "Sajith Rayhan",
-        "designation": "ECOSOC (Vice Chair)",
-        "img": "https://i.postimg.cc/8CRXNS4Y/IMG-7.jpg"
-      },
-      {
-        "name": "Adithya Iyer",
-        "designation": "AD HOC (Head Chair)",
-        "img": "https://i.postimg.cc/MHNm1PtR/IMG-8.jpg"
-      },
-      {
-        "name": "Sidhant",
-        "designation": "US Senate (Director)",
-        "img": "https://i.postimg.cc/R04Q1n1P/IMG-9.png"
-      },
-      {
-        "name": "Soham N Mutta",
-        "designation": "UNGA (Director)",
-        "img": "https://i.postimg.cc/bJFxjC7M/IMG-10.jpg"
-      },
-      {
-        "name": "Rohith Raman",
-        "designation": "US Senate (Head Chair)",
-        "img": "https://i.postimg.cc/hG2x9Ztj/IMG-12.jpg"
+        "designation": "IMF (Co-Chair)",
+        "img": "https://i.ibb.co/Vp32Jt0s/Sajith-Rayhan-IMF-Co-vice-chair.jpg" 
       },
   ]
 
   export const EB3 = [
     {
-        "name": "Adithya Neeraj",
-        "designation": "UNSC (Vice Chair)",
-        "img": "https://i.postimg.cc/vBQM5MmR/IMG-13.png"
+        "name": "Sankrushi PS",
+        "designation": "IPP (Head of Journalism)",
+        "img": "https://i.ibb.co/W4FvGN7z/Sankrushi-IPP-Head-of-journalism.jpg"
       },
       {
-        "name": "Azar Mohamed",
-        "designation": "IPJ (Head Chair)",
-        "img": "https://i.postimg.cc/7LKtQyVr/IMG-14.jpg"
+        "name": "Shreya",
+        "designation": "ILC (Vice-Chair)",
+        "img": "https://i.ibb.co/RGDGjM85/Shreya-ILC-Vice-Chair.jpg"
       },
       {
-        "name": "Poojitha Ramesh",
-        "designation": "IPJ (Vice Chair)",
-        "img": "https://i.postimg.cc/nh1XsqBT/IMG-15.jpg"
+        "name": "Sowmiya Narayanan",
+        "designation": "HRC (Co-Chair)",
+        "img": "https://i.ibb.co/F4s89LnD/Sowmiya-Narayanan-HRC-Co-Chair.jpg" 
       },
       {
-        "name": "Akash Elango",
-        "designation": "AD HOC (CO Vice Chair)",
-        "img": "https://i.postimg.cc/KzVqxrw9/IMG-16.jpg"
+        "name": "Swayam Krishnan",
+        "designation": "HRC (Co-chair)",
+        "img": "https://i.ibb.co/Z1bV9MmR/Swayam-Krishnan-HRC-Co-chair.jpg" 
       },
       {
-        "name": "Nithin",
-        "designation": "UNGA (Vice Chair)",
-        "img": "https://i.postimg.cc/9X68kbG0/IMG-17.jpg"
+        "name": "Varshini",
+        "designation": "IPJ (Co-photographer in chief)",
+        "img": "https://i.ibb.co/Kx4Y39nL/Varshini-IPJ-Co-photographer-in-chief.jpg" 
       },
+      {
+        "name": "Akhil MC, Vibhu Narayan Ravi",
+        "designation": "G20 (Chairs)",
+        "img": "https://i.ibb.co/1JL66Db4/Vibhu-Akhil-G20-Chairs.jpg" 
+      },
+
       {
         "name": "Vihaan Reddy",
-        "designation": "UNSC (Director)",
-        "img": "https://i.postimg.cc/RVxddFBn/IMG-18.png"
+        "designation": "LCA (Crisis) (CO vice)",
+        "img": "https://i.ibb.co/PZw2tJGL/Vihaan-geneva-co-vice-chair.jpg" 
       },
   ]
-  export const EB4 = [
+
+   export const EB4 = [
     {
         "name": "Swayam Krishnan",
         "designation": "UNHRC (Co Vice Chair)",

@@ -40,7 +40,7 @@ const MainApp = ({openNav, setOpenNav}) =>{
       <Route path='/' element={<Home />} />
       <Route path='/backgroundguides' element={<BackgroundGuides />} />
       <Route path='/committees' element={<Committees />} />
-      <Route path='/resources' element={<Resources />} />
+      {/*<Route path='/resources' element={<Resources />} />*/}
       <Route path='/register' element={<Register />} />
       
       <Route path='/contact' element={<Contact />} />

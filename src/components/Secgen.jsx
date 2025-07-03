@@ -22,7 +22,7 @@ With great honour and pride, I welcome all of you to the third edition of Chenna
  
                 </p>
                 <br></br>
-                <h1 className='text-cps-black font-bold text-4xl'>CPS Prime MUN 3.0</h1>
+                <h1 className='text-cps-black font-bold text-4xl'>CPS Prime MUN 4.0</h1>
 
             </div>
             <div className='md:w-[30%] w-full flex items-center justify-center shadow-lg shadow-[#1111F1]'>

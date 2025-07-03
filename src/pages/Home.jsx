@@ -97,7 +97,7 @@ const Home = () => {
         </h1>
         <div className='flex flex-col md:flex-row gap-4 justify-center items-center bg-cps-black rounded-lg md:rounded-full shadow-md shadow-cps-gold p-4 '>
                     <a href='/committees'><button className='cps-un-gold-btn'>Committees</button></a>
-                    <a href="https://drive.google.com/drive/folders/1qrXcP74dEISfkmhTXWZnRPldA2VdOAap?usp=sharing"><button className='cps-un-silver-btn'>Other Resources</button></a>
+                    
                     <a href='https://drive.google.com/drive/folders/1qiz8caGgf-br03Ym4AorA01VFLrb88iA?usp=sharing'><button className='cps-un-gold-btn'>Background Guides</button></a>
                     <a href="/contact"><button className='cps-un-silver-btn'>Contact Us</button></a>
         </div>

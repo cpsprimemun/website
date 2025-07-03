@@ -139,7 +139,7 @@ const ExeBoard = () => {
           ))}
         </div>
       </section>
-      <section id="container" className='mb-24 justify-center'>
+      {/*<section id="container" className='mb-24 justify-center'>
         <div ref={eb2Ref} className="image-container md:flex hidden">
           {EB4.map((member, index) => (
             <div
@@ -166,8 +166,8 @@ const ExeBoard = () => {
             </div>
           ))}
         </div>
-      </section>
-      <section id="container" className='mb-24 justify-center'>
+      </section>*/}
+      {/*<section id="container" className='mb-24 justify-center'>
         <div ref={eb2Ref} className="image-container md:flex hidden">
           {EB5.map((member, index) => (
             <div
@@ -193,7 +193,7 @@ const ExeBoard = () => {
             </div>
           ))}
         </div>
-      </section>
+      </section>*/}
     </>
   );
 };

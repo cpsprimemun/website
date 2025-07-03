@@ -76,19 +76,19 @@ const Footer = () => {
                             </li>
                             <li>
                                 <a href="/getallotrix/otherproducts">
-                                    Chennai Public School
+                                    Chennai Public School Anna Nagar
                                 </a>
                             </li>
                         </ul>
-                    </article>
-                    <article className='flex flex-col gap-3'>
+                   </article>
+                   {/* <article className='flex flex-col gap-3'>
                         <h3 className='text-allotrix-std text-sm'>
                             Resources
                         </h3>
                         <ul className='text-sm'>
                             <li>Coming Soon!</li>
                         </ul>
-                    </article>
+                    </article>*/}
                     <article className='flex flex-col gap-3'>
                         <h3 className='text-allotrix-std text-sm'>
                             <Link to="/contact">
@@ -121,7 +121,7 @@ const Footer = () => {
             <aside className='flex justify-between items-center border-t-2 border-solid border-t-allotrix-std pt-6 md:mx-32'>
                 <div className='w-[80px]'>
                     <Link to={'/'}>
-                    <strong>   <h1>CPS Prime 3.0</h1></strong>
+                    <strong>   <h1>CPS Prime 4.0</h1></strong>
                     </Link>
                 </div>
                 <div className='bg-[#161617] text-[13px] font-light py-1 px-4 rounded-2xl font-allotrix-font-secondary text-[white] transition-all duration-300 ease-out border-[1px] border-solid hover:border-allotrix-std'>
