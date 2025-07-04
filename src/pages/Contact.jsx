@@ -46,22 +46,22 @@ const Contact = () => {
                         Chat with us
                     </h3>
                     <aside className='flex justify-between items-center text-2xl font-allotrix-font-secondary px-10 py-6 rounded-md bg-[#252526] w-[370px] md:w-[400px]'>
-                        <a href='https://wa.me/+917010525692' target='blank' className='h-[50px] w-[50px]'>
-                            <img src={Whatsapp} className='max-h-[100%] max-w-[100%]'  alt="Whatsapp" />
+                        <a href='https://wa.me/+917358081520' target='blank' className='h-[50px] w-[50px]'>
+                            <img src={Whatsapp} className='max-h-[110%] max-w-[100%]'  alt="Whatsapp" />
                             <p className='text-sm'>
-                                Suganti
+                                Praneeth V
                             </p>
                         </a>
-                        <a href='https://wa.me/+918925604336' target='blank' className='h-[50px] w-[50px]'>
+                        <a href='https://wa.me/+919974484518' target='blank' className='h-[50px] w-[50px]'>
                             <img src={Whatsapp} className='max-h-[100%] max-w-[100%]'  alt="Whatsapp" />
                             <p className='text-sm'>
-                                Harini
+                                Shefali Anup
                             </p>
                         </a>
-                        <a href='https://wa.me/+919884679066' target='blank' className='h-[50px] w-[50px]'>
+                        <a href='https://wa.me/+918015014347' target='blank' className='h-[50px] w-[50px]'>
                             <img src={Whatsapp} className='max-h-[100%] max-w-[100%]'  alt="Whatsapp" />
                             <p className='text-sm'>
-                                Dhanya
+                                Prithvi
                             </p>
                         </a>
                     </aside>
