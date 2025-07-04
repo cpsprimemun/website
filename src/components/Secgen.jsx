@@ -12,7 +12,7 @@ const Secgen = () => {
                 
                 
                     Prithvi Easwaramoorthy | Shruti Malaar Damother | Harivathsan HK | Praneeth V
-                <h3 className='font-bold text-cps-grey text-3xl'>Secretariats</h3>
+                <h3 className='font-bold text-cps-grey text-3xl'> From the Secretariats</h3>
                 <p className='font-regular text-base opacity-35	'> Greetings!<br></br><br></br>
 
 “Debate is a constructive conversation, because no one holds a monopoly on being right”

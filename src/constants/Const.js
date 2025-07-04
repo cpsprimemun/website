@@ -1,23 +1,25 @@
-export const CLIENTS = [
+{/*export const CLIENTS = [
     { logo: 'https://i.postimg.cc/HssxLwP4/allotrix-logo.png', alt: 'Allotrix' }, 
-]
+]*/}
 
-export const STALLS = [
+{/*export const STALLS = [
   { logo: 'https://i.postimg.cc/HssxLwP4/allotrix-logo.png', alt: 'Allotrix' }, 
-]
+]*/}
 
 export const COMMITTEES = [
-  { com: "UNGA", logo: "https://i.postimg.cc/brsN8HbJ/unga.png  " },
-  { com: "UNHRC", logo: "https://i.postimg.cc/vBPHpS4k/unhrc.png  " },
-  { com: "UNSC", logo: "https://i.postimg.cc/VvpsNrBF/unsc.png  " },
-  { com: "UNCSW", logo: "https://i.postimg.cc/LX48QM8j/uncsw.png  " },
-  { com: "AIPPM", logo: "https://i.postimg.cc/L8f5nTWg/aippm.png  " },
-  { com: "ECOSOC", logo: "https://i.postimg.cc/VL25fTKc/ecosoc.png  " },
-  { com: "AD HOC", logo: "https://i.postimg.cc/y6Qk5W9x/adhoc.png  " },
-  { com: "IPP", logo: "https://i.postimg.cc/xd2CHmrx/ipp.png" },
-  { com: "IPJ", logo: "https://i.postimg.cc/5NX6M1q3/ipj.png  " },
-  { com: "US SENATE", logo: "https://i.postimg.cc/sfNgmqdZ/us-senate.png" },
-  { com: "SOCHUM", logo: "https://i.postimg.cc/tgNgzgpX/sochum.png" }
+  
+  { com: "ILC", logo: "https://i.ibb.co/gLhy9z3z/image-1.png" },
+  { com: "UNHRC", logo: "https://i.ibb.co/bgxxbr9c/UNHRC-1.png" },
+  
+  { com: "IPP", logo: "https://i.ibb.co/1tVWxqcC/ip-1.png" },
+  { com: "IPJ", logo: "https://i.ibb.co/1tVWxqcC/ip-1.png" },
+  
+  { com: "IMF", logo: "https://i.ibb.co/r2FPX0By/imf.png"  },
+  { com: "AIPPM", logo: "https://i.ibb.co/C4nRtw9/aippm.png" },
+  
+  { com: "GENEVA", logo: "https://i.ibb.co/jkWx0zgS/geneva.png" },
+
+  { com: "G20", logo: "https://i.ibb.co/8nBkr8L1/g20.png" },
 ];
 
 export const MUNPICS = [
