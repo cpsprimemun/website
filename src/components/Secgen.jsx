@@ -12,7 +12,7 @@ const Secgen = () => {
                 
                 
                     Prithvi Easwaramoorthy | Shruti Malaar Damother | Harivathsan HK | Praneeth V
-                <h3 className='font-bold text-cps-grey text-3xl'> From the Secretariats</h3>
+                <h3 className='font-bold text-cps-grey text-3xl'>Secretariats</h3>
                 <p className='font-regular text-base opacity-35	'> Greetings!<br></br><br></br>
 
 “Debate is a constructive conversation, because no one holds a monopoly on being right”
@@ -29,7 +29,7 @@ Thank You
 
             </div>
             <div className='md:w-[30%] w-full flex items-center justify-center shadow-lg shadow-[#1111F1]'>
-                <img src="https://i.postimg.cc/ZRy4MKhB/Whats-App-Image-2024-06-21-at-17-30-56.jpg" alt="Secretary General" className='rounded-md' />
+                <img src="https://i.ibb.co/HDfQ5wJJ/Whats-App-Image-2025-07-05-at-17-40-53.jpg" alt="Secretary General" className='rounded-md' />
             </div>
 
 

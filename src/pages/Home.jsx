@@ -11,7 +11,7 @@ import Secgen from '../components/Secgen'
 const Home = () => {
     const today = dayjs()
 
-    const endDate = today.add(59, 'days').endOf('day').set('date', 19).set('month', 6); // July is month 6 (0-indexed)
+    const endDate = today.add(59, 'days').endOf('day').set('date', 1).set('month', 7); // July is month 6 (0-indexed)
     
     const containerRef = useRef(null);
     

@@ -30,13 +30,13 @@ const Contact = () => {
                         </p>
                         <p className='flex gap-4 items-center'>
                             <IoMdCall />
-                            +91 7010525692
+                            +91 9974484518
                             <img src={India} alt="India" />
 
                         </p>
                         <p className='flex gap-4 items-center'>
                             <IoMdCall />
-                            +91 8925604336
+                            +91 8015014347
                             <img src={India} alt="India" />
                         </p>
                     </aside>
@@ -55,7 +55,7 @@ const Contact = () => {
                         <a href='https://wa.me/+919974484518' target='blank' className='h-[50px] w-[50px]'>
                             <img src={Whatsapp} className='max-h-[100%] max-w-[100%]'  alt="Whatsapp" />
                             <p className='text-sm'>
-                                Shefali Anup
+                                Shaifali Anup
                             </p>
                         </a>
                         <a href='https://wa.me/+918015014347' target='blank' className='h-[50px] w-[50px]'>
