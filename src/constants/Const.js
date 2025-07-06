@@ -52,7 +52,7 @@ export const EB1 = [
     },
     {
       "name": "Ashwamedh",
-      "designation": "LCA (Crisis) (Vice Chair)",
+      "designation": "TGI (Vice Chair)",
       "img": "https://i.ibb.co/jZxgc04V/Ashwamedh-geneva-Vice-chair.jpg"
     },
     {
@@ -70,15 +70,17 @@ export const EB1 = [
       "designation": "AIPPM (Co-chair)",
       "img": "https://i.ibb.co/sJJ2Nf83/Harini-Sree-AIPPM-Co-chair.jpg" 
     },
-    {
-      "name": "Hariroopan-Mathan",
-      "designation": "ILC (Head-Chair)",
-      "img": "https://i.ibb.co/tMsrX5TX/Hariroopan-Mathan-ILC-Head-Chair.jpg" 
-    },
+    
    
    
   ]
   export const EB2 = [
+
+     {
+      "name": "Hariroopan-Mathan",
+      "designation": "ILC (Head-Chair)",
+      "img": "https://i.ibb.co/tMsrX5TX/Hariroopan-Mathan-ILC-Head-Chair.jpg" 
+    },
     {
         "name": "Jwala Ayer",
         "designation": "Co photographer in chief",
@@ -86,7 +88,7 @@ export const EB1 = [
       },
       {
         "name": "Lokesh Narayana",
-        "designation": "Geneva (Head-chair)",
+        "designation": "TGI (Head-chair)",
         "img": "https://i.ibb.co/27WQNqCn/Lokesh-narayana-Geneva-Head-chair.jpg" 
       },
       {
@@ -96,19 +98,10 @@ export const EB1 = [
       },
       {
         "name": "V Roshan Aravin",
-        "designation": "Geneva-moderator",
+        "designation": "TGI Moderator",
         "img": "https://i.ibb.co/cKjX3LGv/Roshan-geneva-moderator.jpg" 
       },
-      {
-        "name": "Ruchit Shivani",
-        "designation": "IMF (Chair)",
-        "img": "https://i.ibb.co/rRKVNBLP/Ruchith-IMF-Head-Chair.jpg" 
-      },
-      {
-        "name": "Sajith Rayhan",
-        "designation": "IMF (Co-Chair)",
-        "img": "https://i.ibb.co/Vp32Jt0s/Sajith-Rayhan-IMF-Co-vice-chair.jpg" 
-      },
+      
   ]
 
   export const EB3 = [
@@ -138,49 +131,42 @@ export const EB1 = [
         "img": "https://i.ibb.co/Kx4Y39nL/Varshini-IPJ-Co-photographer-in-chief.jpg" 
       },
       {
-        "name": "Akhil MC, Vibhu Narayan Ravi",
+        "name": "Vibhu, Akhil",
         "designation": "G20 (Chairs)",
         "img": "https://i.ibb.co/1JL66Db4/Vibhu-Akhil-G20-Chairs.jpg" 
       },
 
-      {
-        "name": "Vihaan Reddy",
-        "designation": "LCA (Crisis) (CO vice)",
-        "img": "https://i.ibb.co/PZw2tJGL/Vihaan-geneva-co-vice-chair.jpg" 
-      },
+     
   ]
 
    export const EB4 = [
     {
-        "name": "Swayam Krishnan",
-        "designation": "UNHRC (Co Vice Chair)",
-        "img": "https://i.postimg.cc/s2x4xGpb/IMG-19.jpg"
+        "name": "H Shyam Sundar",
+        "designation": " AIPPM  (Vice chair)",
+        "img": "https://i.ibb.co/RwpXSLL/Whats-App-Image-2025-07-05-at-23-18-09.jpg"
       },
       {
-        "name": "Sankrushi PS",
-        "designation": "IPP (Head Chair)",
-        "img": "https://i.postimg.cc/k4tNFrYc/IMG-20.jpg"
+        "name": "Karan Chordia",
+        "designation": "IMF  (co vice chair)",
+        "img": "https://i.ibb.co/fVbQQcN6/Whats-App-Image-2025-07-05-at-23-18-09-1.jpg"
       },
-      {
-        "name": "Sanjay Senthilnathan",
-        "designation": "AIPPM (Head Chair)",
-        "img": "https://i.postimg.cc/8cRh9RSf/IMG-21.png"
+{
+        "name": "Sajith Rayhan",
+        "designation": "IMF (Co-Chair)",
+        "img": "https://i.ibb.co/Vp32Jt0s/Sajith-Rayhan-IMF-Co-vice-chair.jpg" 
       },
-      {
-        "name": "Ashwanth Mahesh",
-        "designation": "AIPPM (Vice Chair)",
-        "img": "https://i.postimg.cc/L86zQg0h/IMG-22.png"
+{
+        "name": "Ruchit Shivani",
+        "designation": "IMF (Chair)",
+        "img": "https://i.ibb.co/rRKVNBLP/Ruchith-IMF-Head-Chair.jpg" 
       },
-      {
-        "name": "Arun Krishnan",
-        "designation": "UNGA Sochum (Head Chair)",
-        "img": "https://i.postimg.cc/HLrbdDmg/IMG-23.png"
+ {
+        "name": "Vihaan Reddy",
+        "designation": "TGI (CO vice)",
+        "img": "https://i.ibb.co/PZw2tJGL/Vihaan-geneva-co-vice-chair.jpg" 
       },
-      {
-        "name": "Rishvab Jain",
-        "designation": "UNGA Sochum (Vice Chair)",
-        "img": "https://i.postimg.cc/50cQJXpB/IMG-24.png"
-      },
+      
+     
   ]
   export const EB5 = [
     {

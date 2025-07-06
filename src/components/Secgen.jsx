@@ -29,7 +29,7 @@ Thank You
 
             </div>
             <div className='md:w-[30%] w-full flex items-center justify-center shadow-lg shadow-[#1111F1]'>
-                <img src="https://i.ibb.co/HDfQ5wJJ/Whats-App-Image-2025-07-05-at-17-40-53.jpg" alt="Secretary General" className='rounded-md' />
+                <img src= "https://i.ibb.co/cXsF2HsH/SECRETERIATS.png" alt="Secretary General" className='rounded-md' />
             </div>
 
 
