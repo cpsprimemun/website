@@ -99,7 +99,7 @@ const Footer = () => {
                             <li>
                                 <a className='flex gap-1 items-center' href="mailto:allotrixapp@gmail.com?subject=Meeting%20Request">
                                     <IoMdMail />
-                                    cpsprimemun@gmail.com
+                                    primemun@chennaipublicschool.com
                                 </a>
                             </li>
                             <li>
