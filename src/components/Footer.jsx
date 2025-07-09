@@ -81,14 +81,14 @@ const Footer = () => {
                             </li>
                         </ul>
                    </article>
-                   {/* <article className='flex flex-col gap-3'>
+                   <article className='flex flex-col gap-3'>
                         <h3 className='text-allotrix-std text-sm'>
                             Resources
                         </h3>
                         <ul className='text-sm'>
                             <li>Coming Soon!</li>
                         </ul>
-                    </article>*/}
+                    </article>
                     <article className='flex flex-col gap-3'>
                         <h3 className='text-allotrix-std text-sm'>
                             <Link to="/contact">

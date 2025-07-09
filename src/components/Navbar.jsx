@@ -43,10 +43,10 @@ const Navbar = ({openNav, setOpenNav}) => {
                 </li> 
                 {/*<li className='hover:pb-2 transition-all duration-300 ease-out hover:text-allotrix-std'>
                     <Link to="https://drive.google.com/drive/folders/1qiz8caGgf-br03Ym4AorA01VFLrb88iA?usp=sharing" onClick={() => setOpenNav(!openNav)}>BG Guides</Link> 
-                </li> 
-                <li className='hover:pb-2 transition-all duration-300 ease-out hover:text-allotrix-std'>
-                    <Link to="https://drive.google.com/drive/folders/1qrXcP74dEISfkmhTXWZnRPldA2VdOAap?usp=sharing" onClick={() => setOpenNav(!openNav)}>Resources</Link> 
                 </li> */}
+                <li className='hover:pb-2 transition-all duration-300 ease-out hover:text-allotrix-std'>
+                    <Link to="https://drive.google.com/drive/folders/1dOdsXWf1OtZIVXsL33DSo4rc2djx7BrI" onClick={() => setOpenNav(!openNav)}>Agendas</Link> 
+                </li> 
                 <li className='hover:pb-2 transition-all duration-300 ease-out hover:text-allotrix-std'>
                     <Link to="/contact" onClick={() => setOpenNav(!openNav)}>Contact</Link>
                 </li>
