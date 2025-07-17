@@ -5,12 +5,14 @@ import Home from './pages/Home';
 import BackgroundGuides from './pages/BackgroundGuides';
 import Resources from './pages/Resources';
 import Committees from './pages/Committees';
+import Agendas from './pages/Agendas';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
 import Cursor from './components/Cursor';
 import Navbar from './components/Navbar';
 import Register from './pages/Register';
 import MobileNavbar from './components/MobileNavbar';
+import OCMembers from './components/OCMembers';
 const App = () => {
   const [openNav, setOpenNav] = useState(false);
 
@@ -40,9 +42,10 @@ const MainApp = ({openNav, setOpenNav}) =>{
       <Route path='/' element={<Home />} />
       <Route path='/backgroundguides' element={<BackgroundGuides />} />
       <Route path='/committees' element={<Committees />} />
+      <Route path='/agendas' element={<Agendas />} />
       {/*<Route path='/resources' element={<Resources />} />*/}
       <Route path='/register' element={<Register />} />
-      
+       <Route path='/ocmembers' element={<OCMembers />} />
       <Route path='/contact' element={<Contact />} />
 
      

@@ -22,6 +22,21 @@ export const COMMITTEES = [
   { com: "G20", logo: "https://i.ibb.co/8nBkr8L1/g20.png" },
 ];
 
+export const AGENDAS = [
+  
+  { com: "ILC", logo: "https://i.ibb.co/9mGhDns4/2.png"},
+  { com: "UNHRC", logo: "https://i.ibb.co/9Kg06qK/4.png"},
+  
+  { com: "G20", logo: "https://i.ibb.co/Yg7dy09/3.png"},
+  { com: "AIPPM", logo: "https://i.ibb.co/05KTV06/5.png"},
+  
+  { com: "IMF", logo: "https://i.ibb.co/wFhDWS3T/6.png"},
+  { com: "GENEVA", logo: "https://i.ibb.co/dwVgdLD0/7.png"},
+  
+  { com: "IPC", logo: "https://i.ibb.co/rfc7skGX/8.png"},
+
+];
+
 export const MUNPICS = [
     { img: 'https://i.postimg.cc/150hrYSk/7.webp', alt: '7' }, 
     { img: 'https://i.postimg.cc/1RqZf3j5/8.webp', alt: '8' }, 
