@@ -51,7 +51,7 @@ const OCMembers = () => {
     <>
      
       <section className="bg-[#000] text-[#fff] flex flex-col justify-center items-center py-36 gap-4">
-             <h1 className='text-4xl text-[white] font-bold'>Meet the Executive board</h1>
+             <h1 className='text-4xl text-[white] font-bold'>Meet the Organizing Committee</h1>
        </section>
       <section id="container" className='justify-center'>
         <div ref={eb1Ref} className="image-container mb-24 md:flex hidden">
