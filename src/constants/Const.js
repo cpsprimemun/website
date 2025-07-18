@@ -239,7 +239,7 @@ export const EB1 = [
     },
     {
       "name": "Reeth Mokati",
-      "designation": "USG Decor team",
+      "designation": "USG Decor team member",
       "img": "https://i.ibb.co/vxRwx87R/3c224ab8-e1a3-40d3-b735-48ba1b75d56f.jpg" 
     },
    
@@ -287,7 +287,7 @@ export const EB1 = [
     },
     {
       "name": "Rithika Harish",
-      "designation": "USG Co-head content team",
+      "designation": "USG Co-head Content Writing Team",
       "img": "https://i.ibb.co/QzVf0DG/3a90c099-e38b-4877-b0ea-efe31e6961cf.jpg"
     },
     {
@@ -297,7 +297,7 @@ export const EB1 = [
     },
     {
       "name": "Bhavyan A Chauhan",
-      "designation": "USG Sponsorship comittee",
+      "designation": "USG Sponsorship",
       "img": "https://i.ibb.co/NnpD9fSy/ea4a93de-d9c5-47f2-83de-85e31678e631.jpg" 
     },
     {
@@ -311,7 +311,7 @@ export const EB1 = [
   export const OC4 = [
     {
       "name": "Hardik M Sooda",
-      "designation": "USG HEAD OF TECH AND VISCOM",
+      "designation": "USG Head of Tech and Viscom",
       "img": "https://i.ibb.co/WWpJYFG5/c0b51f85-c953-4b1d-97c9-5bb7e067539a.jpg"
     },
     {
@@ -331,7 +331,7 @@ export const EB1 = [
     },
     {
       "name": "Daksh",
-      "designation": "USG marketing",
+      "designation": "USG Marketing Team member",
       "img": "https://i.ibb.co/tw2MJqTv/d70d9e3b-ef7b-4239-a378-5de3aba766ae.jpg"
     },
     

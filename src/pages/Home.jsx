@@ -29,7 +29,7 @@ const Home = () => {
         <h1 className='font-bold text-[#fff] md:text-8xl text-7xl px-4 text-center'><span className='text-cps-gold'>Conquer</span> From Within</h1>
         <p className='text-lg text-center'>Welcome to CPS Prime MUN, Chennai Public Schools’s Annual MUN Conference</p>
         <div className='flex gap-8 my-4'>
-        <button className='cps-un-silver-btn text-lg' onClick={()=>{prevMUNContainer?.scrollIntoView({ behavior: 'smooth' });}}>Explore</button>
+        {/*<button className='cps-un-silver-btn text-lg' onClick={()=>{prevMUNContainer?.scrollIntoView({ behavior: 'smooth' });}}>Explore</button>*/}
 
             <a href="/register"><button className='cps-un-gold-btn text-lg'>Register</button></a>
 
