@@ -215,3 +215,130 @@ export const EB1 = [
         "img": "https://i.postimg.cc/hG2x9Ztj/IMG-12.jpg"
       },
   ]
+
+  export const OC1 = [
+    {
+      "name": "Sanjeev Chandrashekar",
+      "designation": "Co-Head of Organising Committee",
+      "img": "https://i.ibb.co/SDdPrjN0/Whats-App-Image-2025-07-16-at-22-29-01-1.jpg"
+    },
+    {
+      "name": "Krishaanth S",
+      "designation": "Co-Head of Organising Committee",
+      "img": "https://i.ibb.co/v6mQL3X1/c8ac8702-036e-4759-8303-31091370eb2f.jpg"
+    },
+    {
+      "name": "Akansha Arun",
+      "designation": "USG Hospitality",
+      "img": "https://i.ibb.co/213sXQqp/0eacbec0-836a-401c-a656-26d5f4690683.jpg"
+    },
+    {
+      "name": "Kulvansh Surana",
+      "designation": "USG Head of Sponsorship",
+      "img": "https://i.ibb.co/84n3hGn9/cb3d23ae-8ceb-4a4a-9b8b-b90f6a79746a.jpg"
+    },
+    {
+      "name": "Reeth Mokati",
+      "designation": "USG Decor team",
+      "img": "https://i.ibb.co/vxRwx87R/3c224ab8-e1a3-40d3-b735-48ba1b75d56f.jpg" 
+    },
+   
+  ]
+
+  export const OC2 = [
+    {
+      "name": "Tanishka Karan",
+      "designation": "USG Decor team member",
+      "img": "https://i.ibb.co/4Rb6RNgt/a4c47c8a-eea0-4e40-b563-cfa04c3144b2.jpg" 
+    },
+    {
+      "name": "Rakshana S",
+      "designation": "USG Head of Decor",
+      "img": "https://i.ibb.co/BHjSf6Sj/25853ff1-eb50-4973-a05a-dca1a9befec7.jpg"
+    },
+    {
+      "name": "Kaviya Sri",
+      "designation": "USG Decor team member",
+      "img": "https://i.ibb.co/DPyBzNnR/9b9d4b76-797f-48be-92ec-123d81b578a3.jpg" 
+    },
+    {
+      "name": "Prajith S",
+      "designation": "Head of Website Development",
+      "img": "https://i.ibb.co/gM8CMhRR/f157fba1-2876-4e7f-bd3d-3ebfc5291d9e.jpg"
+    },
+    {
+      "name": "Nandana",
+      "designation": "USG Co-head Content writing",
+      "img": "https://i.ibb.co/QFPwktzM/2e201a5d-cc47-4679-b945-514c2e800ac1.jpg" 
+    },
+    {
+      "name": "Vridhi Jain",
+      "designation": "USG content",
+      "img": "https://i.ibb.co/Fkw67rV7/5760b764-e1e0-4480-92a7-5d368724cf99.jpg"
+    },
+   
+  ]
+
+  export const OC3 = [
+    {
+      "name": "Srihitha S",
+      "designation": "USG Marketing team member",
+      "img": "https://i.ibb.co/5WFr7dK6/Screenshot-2025-07-18-190920.jpg"
+    },
+    {
+      "name": "Rithika Harish",
+      "designation": "USG Co-head content team",
+      "img": "https://i.ibb.co/QzVf0DG/3a90c099-e38b-4877-b0ea-efe31e6961cf.jpg"
+    },
+    {
+      "name": "A Neha Rozane ",
+      "designation": "USG Content writing",
+      "img": "https://i.ibb.co/LHJtv67/a638c0ac-0cf7-407a-bbc2-95ea2ac32e40.jpg" 
+    },
+    {
+      "name": "Bhavyan A Chauhan",
+      "designation": "USG Sponsorship comittee",
+      "img": "https://i.ibb.co/NnpD9fSy/ea4a93de-d9c5-47f2-83de-85e31678e631.jpg" 
+    },
+    {
+      "name": "Kristina Susanna R C",
+      "designation": "USG Head of Logistics",
+      "img": "https://i.ibb.co/zHTh9bxh/d882211e-d2fa-48b5-bcb7-ea0b70ff44d9.jpg"
+    },
+    
+  ]
+
+  export const OC4 = [
+    {
+      "name": "Hardik M Sooda",
+      "designation": "USG HEAD OF TECH AND VISCOM",
+      "img": "https://i.ibb.co/WWpJYFG5/c0b51f85-c953-4b1d-97c9-5bb7e067539a.jpg"
+    },
+    {
+      "name": "Nehan M Shahal",
+      "designation": " USG Head of Marketing",
+      "img": "https://i.ibb.co/67r1bPTF/621965b9-cca3-4149-ab85-b2b33c2e7b90.jpg" 
+    },
+    {
+      "name": "Mohnish Maaran",
+      "designation": "USG Head for Tech and Viscom",
+      "img": "https://i.ibb.co/7tNqzyQ7/3e5cc4b1-a655-481a-8833-cf6076e4d010.jpg"
+    },
+    {
+      "name": "Hamsini",
+      "designation": "USG hospitality",
+      "img": "https://i.ibb.co/mFtCR4HN/1c668955-68ce-441f-a73c-d3bec64932dd.jpg" 
+    },
+    {
+      "name": "Daksh",
+      "designation": "USG marketing",
+      "img": "https://i.ibb.co/tw2MJqTv/d70d9e3b-ef7b-4239-a378-5de3aba766ae.jpg"
+    },
+    
+    {
+      "name": "Sahaas",
+      "designation": "USG delegate affairs",
+      "img": "https://i.ibb.co/XZgPG8s6/37ca4045-4855-456b-bc83-850f0b5bd2e3.jpg" 
+    },
+   
+  ]

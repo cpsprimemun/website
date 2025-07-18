@@ -28,7 +28,7 @@ const Footer = () => {
                     </div>
                 </article>
                 <aside className='flex flex-wrap gap-6 font-allotrix-font px-10 justify-center my-10 md:my-[unset] md:gap-14'>
-                    <article className='flex flex-col gap-3'>
+                    {/*<article className='flex flex-col gap-3'>
                         <h3 className='text-allotrix-std text-sm'>
                             <Link to="/">
                                 Product
@@ -51,8 +51,8 @@ const Footer = () => {
                                 </a>
                             </li>
                         </ul>
-                    </article>
-                    <article className='flex flex-col gap-3'>
+                    </article>*/}
+                    {/*<article className='flex flex-col gap-3'>
                         <h3 className='text-allotrix-std text-sm'>
                             <Link to="/getAllotrix">
                                 Shop
@@ -80,7 +80,7 @@ const Footer = () => {
                                 </a>
                             </li>
                         </ul>
-                   </article>
+                   </article>*/}
                    <article className='flex flex-col gap-3'>
                         <h3 className='text-allotrix-std text-sm'>
                             Resources
