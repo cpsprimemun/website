@@ -141,9 +141,9 @@ export const EB1 = [
         "img": "https://i.ibb.co/Z1bV9MmR/Swayam-Krishnan-HRC-Co-chair.jpg" 
       },
       {
-        "name": "Varshini",
-        "designation": "IPJ (Co-photographer in chief)",
-        "img": "https://i.ibb.co/Kx4Y39nL/Varshini-IPJ-Co-photographer-in-chief.jpg" 
+        "name": "Jamal",
+        "designation": "G20 Director",
+        "img": "https://i.ibb.co/qLs4RXLv/Whats-App-Image-2025-07-21-at-22-04-08.jpg" 
       },
       {
         "name": "Vibhu, Akhil",
@@ -222,27 +222,26 @@ export const EB1 = [
       "designation": "Co-Head of Organising Committee",
       "img": "https://i.ibb.co/SDdPrjN0/Whats-App-Image-2025-07-16-at-22-29-01-1.jpg"
     },
-    {
+   {
       "name": "Krishaanth S",
-      "designation": "Co-Head of Organising Committee",
+      "designation": "Co-head of organising committee",
       "img": "https://i.ibb.co/v6mQL3X1/c8ac8702-036e-4759-8303-31091370eb2f.jpg"
     },
     {
       "name": "Akansha Arun",
       "designation": "USG Hospitality",
-      "img": "https://i.ibb.co/213sXQqp/0eacbec0-836a-401c-a656-26d5f4690683.jpg"
+      "img": "https://i.ibb.co/213sXQqp/0eacbec0-836a-401c-a656-26d5f4690683.jpg" 
     },
     {
       "name": "Kulvansh Surana",
-      "designation": "USG Head of Sponsorship",
-      "img": "https://i.ibb.co/84n3hGn9/cb3d23ae-8ceb-4a4a-9b8b-b90f6a79746a.jpg"
+      "designation": "Head of Sponsorship",
+      "img": "https://i.ibb.co/84n3hGn9/cb3d23ae-8ceb-4a4a-9b8b-b90f6a79746a.jpg" 
     },
     {
       "name": "Reeth Mokati",
-      "designation": "USG Decor team member",
+      "designation": "USG Decor Team Member",
       "img": "https://i.ibb.co/vxRwx87R/3c224ab8-e1a3-40d3-b735-48ba1b75d56f.jpg" 
     },
-   
   ]
 
   export const OC2 = [
@@ -328,11 +327,6 @@ export const EB1 = [
       "name": "Hamsini",
       "designation": "USG hospitality",
       "img": "https://i.ibb.co/mFtCR4HN/1c668955-68ce-441f-a73c-d3bec64932dd.jpg" 
-    },
-    {
-      "name": "Daksh",
-      "designation": "USG Marketing Team member",
-      "img": "https://i.ibb.co/tw2MJqTv/d70d9e3b-ef7b-4239-a378-5de3aba766ae.jpg"
     },
     
     {

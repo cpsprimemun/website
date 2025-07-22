@@ -22,9 +22,9 @@ const Footer = () => {
                         <a href="https://www.instagram.com/cpsprime_mun/" target='blank'>
                             <FaInstagram />
                         </a>
-                        <a href="/" target='blank'>
+                        {/*<a href="/" target='blank'>
                             <FaLinkedin />
-                        </a>
+                        </a>*/}
                     </div>
                 </article>
                 <aside className='flex flex-wrap gap-6 font-allotrix-font px-10 justify-center my-10 md:my-[unset] md:gap-14'>
