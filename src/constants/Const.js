@@ -108,7 +108,7 @@ export const EB1 = [
       },
       {
         "name": "Narendran MK",
-        "designation": "Co photographer in chief ",
+        "designation": "Co photographer in chief s",
         "img": "https://i.ibb.co/W47bfL8b/Naren-IPP-Editor-in-Chief.jpg" 
       },
       {
@@ -327,6 +327,12 @@ export const EB1 = [
       "name": "Hamsini",
       "designation": "USG hospitality",
       "img": "https://i.ibb.co/mFtCR4HN/1c668955-68ce-441f-a73c-d3bec64932dd.jpg" 
+    },
+
+     {
+      "name": "Daksh",
+      "designation": "USG Marketing Team member",
+      "img": "https://i.ibb.co/tw2MJqTv/d70d9e3b-ef7b-4239-a378-5de3aba766ae.jpg" 
     },
     
     {
