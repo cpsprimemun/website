@@ -98,7 +98,7 @@ export const EB1 = [
     },
     {
         "name": "Jwala Ayer",
-        "designation": "Co photographer in chief",
+        "designation": "Editor in chief",
         "img": "https://i.ibb.co/Hf3Ns3BV/Jwala-IPJ-Co-photographer-in-chief.jpg" 
       },
       {
@@ -108,7 +108,7 @@ export const EB1 = [
       },
       {
         "name": "Narendran MK",
-        "designation": "Editor in chief",
+        "designation": "Co photographer in chief ",
         "img": "https://i.ibb.co/W47bfL8b/Naren-IPP-Editor-in-Chief.jpg" 
       },
       {
