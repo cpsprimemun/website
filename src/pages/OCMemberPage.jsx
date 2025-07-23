@@ -101,7 +101,8 @@ const Home = () => {
                     <a href='/committees'><button className='cps-un-gold-btn'>Committees</button></a>
                     
                     {/*<a href='https://drive.google.com/drive/folders/1qiz8caGgf-br03Ym4AorA01VFLrb88iA?usp=sharing'><button className='cps-un-gold-btn'>Background Guides</button></a>*/}
-                    <a href='https://drive.google.com/drive/folders/1dOdsXWf1OtZIVXsL33DSo4rc2djx7BrI'><button className='cps-un-gold-btn'>Agendas</button></a>
+                    <a href='/agendas'><button className='cps-un-gold-btn'>Agendas</button></a>
+                    
                     <a href="/contact"><button className='cps-un-silver-btn'>Contact Us</button></a>
         </div>
         
