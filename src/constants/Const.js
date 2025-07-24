@@ -72,7 +72,7 @@ export const EB1 = [
     },
     {
       "name": "Mohammad Azhar",
-      "designation": "IPJ (Head of Photojournalism)",
+      "designation": "IPJ (Head of Journalism)",
       "img": "https://i.ibb.co/4n86dDCF/Azhar-IPJ-Head-of-photojournalism.jpg"
     },
     {
@@ -108,7 +108,7 @@ export const EB1 = [
       },
       {
         "name": "Narendran MK",
-        "designation": "Co photographer in chief",
+        "designation": "Photographer in chief",
         "img": "https://i.ibb.co/W47bfL8b/Naren-IPP-Editor-in-Chief.jpg" 
       },
       {
@@ -122,7 +122,7 @@ export const EB1 = [
   export const EB3 = [
     {
         "name": "Sankrushi PS",
-        "designation": "IPP (Head of Journalism)",
+        "designation": "IPP (Head of Photography)",
         "img": "https://i.ibb.co/W4FvGN7z/Sankrushi-IPP-Head-of-journalism.jpg"
       },
       {
@@ -147,7 +147,7 @@ export const EB1 = [
       },
       {
         "name": "Vibhu, Akhil",
-        "designation": "G20 (Chairs)",
+        "designation": "G20 (Co - Chairs)",
         "img": "https://i.ibb.co/1JL66Db4/Vibhu-Akhil-G20-Chairs.jpg" 
       },
 
@@ -167,7 +167,7 @@ export const EB1 = [
       },
 {
         "name": "Sajith Rayhan",
-        "designation": "IMF (Co-Chair)",
+        "designation": "IMF (Co- Vice Chair)",
         "img": "https://i.ibb.co/Vp32Jt0s/Sajith-Rayhan-IMF-Co-vice-chair.jpg" 
       },
 {
@@ -177,7 +177,7 @@ export const EB1 = [
       },
  {
         "name": "Vihaan Reddy",
-        "designation": "TGI (CO vice)",
+        "designation": "TGI (Co-vice Chair)",
         "img": "https://i.ibb.co/PZw2tJGL/Vihaan-geneva-co-vice-chair.jpg" 
       },
       
