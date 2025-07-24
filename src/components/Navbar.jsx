@@ -44,10 +44,10 @@ const Navbar = ({openNav, setOpenNav}) => {
                 {/*<li className='hover:pb-2 transition-all duration-300 ease-out hover:text-allotrix-std'>
                     <Link to="https://drive.google.com/drive/folders/1qiz8caGgf-br03Ym4AorA01VFLrb88iA?usp=sharing" onClick={() => setOpenNav(!openNav)}>BG Guides</Link> 
                 </li> */}
-                <li className='hover:pb-2 transition-all duration-300 ease-out hover:text-allotrix-std'>
+                {/*<li className='hover:pb-2 transition-all duration-300 ease-out hover:text-allotrix-std'>
                     <Link to="https://www.dropbox.com/scl/fi/8e6kc8kdlxrhflwv3hrx0/Itinerary-cpsprime4.0.pdf?rlkey=oqqx28u5s69y62lj8gz698jfk&st=jqdl8iqb&dl=0"
                     onClick={() => setOpenNav(!openNav)}>Itinerary</Link> 
-                </li>  
+                </li>  */}
 
                 <li className='hover:pb-2 transition-all duration-300 ease-out hover:text-allotrix-std'>
                     <Link to="/agendas" onClick={() => setOpenNav(!openNav)}>Agendas</Link> 
